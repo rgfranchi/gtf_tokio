@@ -21,10 +21,10 @@
 		<!-- Versão so spring 2.6.X não funciona com swagger2 e actuator juntos  -->
 		<!-- Se incluir no application.properties -> spring.mvc.pathmatch.matching-strategy=ANT_PATH_MATCHER o actuator não funciona -->
 		<!-- Se retirar do application.properties -> spring.mvc.pathmatch.matching-strategy=ANT_PATH_MATCHER o swagger não funciona -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency> -->
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-artemis</artifactId>
